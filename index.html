@@ -1,45 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Insights: Dynamics CRM & AI</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        h1 { color: #333; }
-        h2 { color: #555; }
-        a { color: #007bff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to Tech Insights</h1>
-        <p>Your go-to resource for Dynamics CRM and AI (LLM) solutions.</p>
-    </header>
-    
-    <section>
-        <h2>About Us</h2>
-        <p>At Tech Insights, we specialize in leveraging Dynamics CRM to streamline business processes and integrate cutting-edge AI technologies, including Large Language Models (LLMs), to drive innovation and efficiency.</p>
-    </section>
-    
-    <section>
-        <h2>Our Focus Areas</h2>
-        <ul>
-            <li><strong>Dynamics CRM:</strong> Custom implementations, integrations, and optimizations for Microsoft Dynamics 365.</li>
-            <li><strong>AI & LLM:</strong> Exploring the potential of artificial intelligence, from chatbots to predictive analytics using advanced language models.</li>
-            <li><strong>Integration Solutions:</strong> Bridging CRM systems with AI tools for enhanced customer experiences.</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Latest Insights</h2>
-        <p>Stay tuned for articles, tutorials, and case studies on the latest trends in CRM and AI.</p>
-        <p>Check out our blog for in-depth posts: <a href="https://blog.varvind.com" target="_blank">blog.varvind.com</a></p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2026 Tech Insights. All rights reserved.</p>
-    </footer>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="brand">
+                <i class="fa-solid fa-cube"></i>
+                <span>Tech Insights</span>
+            </div>
+
+            <button id="sidebar-toggle" class="toggle-btn" aria-label="Toggle Sidebar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="#" class="active">
+                        <span class="nav-icon"><i class="fa-solid fa-house"></i></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <span class="nav-icon"><i class="fa-solid fa-circle-info"></i></span>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#focus">
+                        <span class="nav-icon"><i class="fa-solid fa-crosshairs"></i></span>
+                        <span>Focus</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.varvind.com" target="_blank">
+                        <span class="nav-icon"><i class="fa-solid fa-blog"></i></span>
+                        <span>Blog</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>Welcome to Tech Insights</h1>
+                <p>Your go-to resource for Dynamics CRM and AI (LLM) solutions.</p>
+            </header>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <p>At Tech Insights, we specialize in leveraging Dynamics CRM to streamline business processes and
+                    integrate cutting-edge AI technologies, including Large Language Models (LLMs), to drive innovation
+                    and efficiency.</p>
+            </section>
+
+            <section id="focus">
+                <h2>Our Focus Areas</h2>
+                <ul>
+                    <li><strong>Dynamics CRM:</strong> Custom implementations, integrations, and optimizations for
+                        Microsoft Dynamics 365.</li>
+                    <li><strong>AI & LLM:</strong> Exploring the potential of artificial intelligence, from chatbots to
+                        predictive analytics using advanced language models.</li>
+                    <li><strong>Integration Solutions:</strong> Bridging CRM systems with AI tools for enhanced customer
+                        experiences.</li>
+                </ul>
+            </section>
+
+            <section id="insights">
+                <h2>Latest Insights</h2>
+                <p>Stay tuned for articles, tutorials, and case studies on the latest trends in CRM and AI.</p>
+                <div style="margin-top: 15px;">
+                    <a href="https://blog.varvind.com" target="_blank">
+                        Visit Blog <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em;"></i>
+                    </a>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2026 Tech Insights. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
