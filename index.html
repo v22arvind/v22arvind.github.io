@@ -25,25 +25,25 @@
 
             <ul class="nav-links">
                 <li>
-                    <a href="#" class="active">
+                    <a href="#" class="active" title="Home">
                         <span class="nav-icon"><i class="fa-solid fa-house"></i></span>
                         <span>Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#about">
+                    <a href="#about" title="About">
                         <span class="nav-icon"><i class="fa-solid fa-circle-info"></i></span>
                         <span>About</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#focus">
+                    <a href="#focus" title="Focus Areas">
                         <span class="nav-icon"><i class="fa-solid fa-crosshairs"></i></span>
                         <span>Focus</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://blog.varvind.com" target="_blank">
+                    <a href="https://blog.varvind.com" target="_blank" title="Blog">
                         <span class="nav-icon"><i class="fa-solid fa-blog"></i></span>
                         <span>Blog</span>
                     </a>
@@ -53,43 +53,63 @@
 
         <!-- Main Content -->
         <main class="main-content">
-            <header>
-                <h1>Welcome to Tech Insights</h1>
-                <p>Your go-to resource for Dynamics CRM and AI (LLM) solutions.</p>
-            </header>
+            <!-- Theme Switcher -->
+            <div class="theme-switcher">
+                <button class="theme-btn active" data-theme="default" style="background-color: #f8fafc;"
+                    title="Default"></button>
+                <button class="theme-btn" data-theme="theme-sky" style="background-color: #e0f2fe;"
+                    title="Sky"></button>
+                <button class="theme-btn" data-theme="theme-lavender" style="background-color: #f3e8ff;"
+                    title="Lavender"></button>
+                <button class="theme-btn" data-theme="theme-mint" style="background-color: #dcfce7;"
+                    title="Mint"></button>
+            </div>
 
-            <section id="about">
-                <h2>About Us</h2>
-                <p>At Tech Insights, we specialize in leveraging Dynamics CRM to streamline business processes and
-                    integrate cutting-edge AI technologies, including Large Language Models (LLMs), to drive innovation
-                    and efficiency.</p>
+            <!-- Hero Section -->
+            <section class="hero">
+                <img src="assets/images/hero-bg.png" alt="Abstract Background" class="hero-bg" id="hero-bg">
+                <header>
+                    <h1>Welcome into <br>Tech Insights</h1>
+                    <p>Your premium resource for Dynamics CRM and AI (LLM) solutions. Exploring the future of business
+                        intelligence with simplicity and elegance.</p>
+                </header>
             </section>
 
-            <section id="focus">
-                <h2>Our Focus Areas</h2>
-                <ul>
-                    <li><strong>Dynamics CRM:</strong> Custom implementations, integrations, and optimizations for
-                        Microsoft Dynamics 365.</li>
-                    <li><strong>AI & LLM:</strong> Exploring the potential of artificial intelligence, from chatbots to
-                        predictive analytics using advanced language models.</li>
-                    <li><strong>Integration Solutions:</strong> Bridging CRM systems with AI tools for enhanced customer
-                        experiences.</li>
-                </ul>
-            </section>
+            <div class="content-wrapper">
+                <section id="about">
+                    <h2>About Us</h2>
+                    <p>At Tech Insights, we specialize in leveraging Dynamics CRM to streamline business processes and
+                        integrate cutting-edge AI technologies, including Large Language Models (LLMs), to drive
+                        innovation and efficiency.</p>
+                </section>
 
-            <section id="insights">
-                <h2>Latest Insights</h2>
-                <p>Stay tuned for articles, tutorials, and case studies on the latest trends in CRM and AI.</p>
-                <div style="margin-top: 15px;">
-                    <a href="https://blog.varvind.com" target="_blank">
-                        Visit Blog <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8em;"></i>
-                    </a>
-                </div>
-            </section>
+                <section id="focus">
+                    <h2>Our Focus Areas</h2>
+                    <ul>
+                        <li><strong>Dynamics CRM:</strong> Custom implementations, integrations, and optimizations for
+                            Microsoft Dynamics 365.</li>
+                        <li><strong>AI & LLM:</strong> Exploring the potential of artificial intelligence, from chatbots
+                            to predictive analytics using advanced language models.</li>
+                        <li><strong>Integration Solutions:</strong> Bridging CRM systems with AI tools for enhanced
+                            customer experiences.</li>
+                    </ul>
+                </section>
 
-            <footer>
-                <p>&copy; 2026 Tech Insights. All rights reserved.</p>
-            </footer>
+                <section id="insights">
+                    <h2>Latest Insights</h2>
+                    <p>Stay tuned for articles, tutorials, and case studies on the latest trends in CRM and AI.</p>
+                    <div style="margin-top: 25px;">
+                        <a href="https://blog.varvind.com" target="_blank"
+                            style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600;">
+                            Visit Blog <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.9em;"></i>
+                        </a>
+                    </div>
+                </section>
+
+                <footer>
+                    <p>&copy; 2026 Tech Insights. All rights reserved.</p>
+                </footer>
+            </div>
         </main>
     </div>
 
